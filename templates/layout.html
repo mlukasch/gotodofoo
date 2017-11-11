@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Goo-To-Do-Foo</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-		  integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-	<link rel="stylesheet" href="/assets/css/styles.css">
+    <meta charset="UTF-8">
+    <title>Goo-To-Do-Foo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
+
+<nav class="navbar navbar-expand-sm bg-light">
+    <div class="navbar-brand pacifico ml-3">
+        Goo-To-Do-Foo
+        <i class="fa fa-pencil mr-2" aria-hidden="true"></i>
+    </div>
+
+    <ul class="navbar-nav ml-auto align-items-center">
+        <li class="navbar-item m-3">
+            <a href="/" class="navbar-link">
+                My TodoLists
+            </a>
+        </li>
+        <li class="navbar-item m-3">
+            <a href="/" class="navbar-link">
+                New TodoList
+            </a>
+        </li>
+        <li class="navbar-item m-3 mr-5">
+            <a href="/" class="navbar-link">
+                About
+            </a>
+        </li>
+        <li class="navbar-item m-3">
+            <a href="/" class="navbar-link btn btn-outline-primary">
+                Register
+            </a>
+        </li>
+        <li class="navbar-item m-3">
+            <a href="/" class="navbar-link btn btn-primary">
+                Login
+            </a>
+        </li>
+
+    </ul>
+</nav>
 <div>{{template "header"}}</div>
 <div>{{template "content"}}</div>
 <div>{{template "footer"}}</div>

@@ -7,12 +7,14 @@
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
 </head>
 <body>
 
 <nav class="navbar navbar-expand-sm bg-light">
-    <div class="navbar-brand pacifico ml-3">
+    <div class="navbar-brand font-pacifico ml-3 ">
         Goo-To-Do-Foo
         <i class="fa fa-pencil mr-2" aria-hidden="true"></i>
     </div>
@@ -46,8 +48,47 @@
 
     </ul>
 </nav>
-<div>{{template "header"}}</div>
-<div>{{template "content"}}</div>
-<div>{{template "footer"}}</div>
+
+<div class="container content">{{template "content"}}</div>
+
+<div class="footer container-fluid bg-light p-4">
+    <div class="row">
+        <div class="col">
+            <div class="row font-nova-mono">
+                <div class="col d-flex justify-content-end">
+                    Developed with:
+                </div>
+                <div class="col">
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Golang
+                        </li>
+                        <li>
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Bootstrap 4
+                        </li>
+                        <li>
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Docker
+                        </li>
+                        <li>
+                            <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                            Postgresql
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <a href="/about">
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+                Impressum
+            </a>
+        </div>
+    </div>
+</div>
 </body>
 </html>

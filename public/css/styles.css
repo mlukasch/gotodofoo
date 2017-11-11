@@ -1,9 +1,21 @@
 body {
-    background-image: url("/assets/images/butterfly.jpeg");
     background-size: cover;
+    background: url("/assets/images/butterfly.jpeg");
 }
 
-.pacifico {
+.font-pacifico {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+}
+
+.font-great-vibes {
+    font-family: 'Great Vibes', cursive;
+}
+
+.font-nova-mono {
+    font-family: 'Nova Mono', monospace;
+}
+
+.content {
+    height: 100vh;
 }

@@ -1,14 +1,11 @@
 body {
     background-color: #2980b9;
+    font-family: 'Lora', serif;
 }
 
 .font-pacifico {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
-}
-
-body {
-    font-family: 'Lora', serif;
 }
 
 .font-nova-mono {
@@ -25,12 +22,17 @@ body {
     font-size: 0.8em;
 }
 
-.handwritten {
+.quote-header {
     font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1.5em;
+    margin-top: 2em;
 }
 
 .blockquote-footer {
-    color: darkgray;
+    color: antiquewhite;
+    font-size: 1em;
 }
 
 .content {
@@ -40,4 +42,8 @@ body {
 .container-quote {
     padding-left: 4em;
     padding-right: 4em;
+}
+
+.container-quote .carousel-inner {
+    height: 600px;
 }

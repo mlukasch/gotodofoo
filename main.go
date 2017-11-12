@@ -14,6 +14,7 @@ func main() {
 func loadTemplates() map[string]*template.Template {
 	pages := []string{
 		"home",
+		"register",
 	}
 	result := make(map[string]*template.Template)
 	for _, page := range pages {

@@ -23,47 +23,49 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="navbar-brand font-pacifico ml-3 ">
-        <a href="/">
-            Goo-To-Do-Foo
-            <i class="fa fa-pencil mr-2" aria-hidden="true"></i>
-        </a>
-    </div>
+<div class="container-fluid pl-0 pr-0">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="navbar-brand font-pacifico ml-3 ">
+            <a href="/">
+                Goo-To-Do-Foo
+                <i class="fa fa-pencil mr-2" aria-hidden="true"></i>
+            </a>
+        </div>
 
-    <ul class="navbar-nav ml-auto align-items-center">
-        <li class="navbar-item m-3">
-            <a href="/" class="navbar-link">
-                My TodoLists
-            </a>
-        </li>
-        <li class="navbar-item m-3">
-            <a href="/" class="navbar-link">
-                New TodoList
-            </a>
-        </li>
-        <li class="navbar-item m-3 mr-5">
-            <a href="/" class="navbar-link">
-                About
-            </a>
-        </li>
-        <li class="navbar-item m-3">
-            <a href="/" class="navbar-link btn btn-outline-primary">
-                Register
-            </a>
-        </li>
-        <li class="navbar-item m-3">
-            <a href="/" class="navbar-link btn btn-primary">
-                Login
-            </a>
-        </li>
+        <ul class="navbar-nav ml-auto align-items-center">
+            <li class="navbar-item m-3">
+                <a href="/" class="navbar-link">
+                    My TodoLists
+                </a>
+            </li>
+            <li class="navbar-item m-3">
+                <a href="/" class="navbar-link">
+                    New TodoList
+                </a>
+            </li>
+            <li class="navbar-item m-3 mr-5">
+                <a href="/" class="navbar-link">
+                    About
+                </a>
+            </li>
+            <li class="navbar-item m-3">
+                <a href="/user/register" class="navbar-link btn btn-outline-primary">
+                    Register
+                </a>
+            </li>
+            <li class="navbar-item m-3">
+                <a href="/" class="navbar-link btn btn-primary">
+                    Login
+                </a>
+            </li>
 
-    </ul>
-</nav>
+        </ul>
+    </nav>
+</div>
 
 <div class="container-fluid content">{{template "content"}}</div>
 
-<div class="footer container-fluid bg-light p-4 mt-5 fixed-bottom">
+<div class="footer container-fluid bg-light p-4 mt-5">
     <div class="row">
         <div class="col">
             <div class="row font-nova-mono">

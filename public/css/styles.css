@@ -1,6 +1,5 @@
 body {
-    background-size: cover;
-    background: url("/assets/images/butterfly.jpeg");
+    background-color: #2980b9;
 }
 
 .font-pacifico {
@@ -8,14 +7,37 @@ body {
     font-size: 30px;
 }
 
-.font-great-vibes {
-    font-family: 'Great Vibes', cursive;
+body {
+    font-family: 'Lora', serif;
 }
 
 .font-nova-mono {
     font-family: 'Nova Mono', monospace;
 }
 
+.blockquote p, .handwritten {
+    font-size: 1.4em;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+
+.btn-register {
+    font-size: 0.8em;
+}
+
+.handwritten {
+    font-size: 2em;
+}
+
+.blockquote-footer {
+    color: darkgray;
+}
+
 .content {
-    height: 100vh;
+    height: 100%;
+}
+
+.container-quote {
+    padding-left: 4em;
+    padding-right: 4em;
 }

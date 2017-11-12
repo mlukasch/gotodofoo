@@ -1,9 +1,74 @@
 {{template "layout.html"}}
 
 {{define "content"}}
-Content
-{{end}}
+<div class="jumbotron handwritten bg-dark mt-4 pb-5">
+    <h1>Use <span class="font-pacifico">Goo-To-Do-Foo <i class="fa fa-pencil mr-2" aria-hidden="true"></i></span> now and experience the value of it.</h1>
 
-{{define "footer"}}
-Footer
+    <div class="d-flex justify-content-center">
+        <button type="button" class="btn btn-outline-light mt-3 btn-register">
+            <i class="fa fa-pencil mr-2" aria-hidden="true"></i>
+            Register now to get started.
+        </button>
+    </div>
+</div>
+
+<div class="container container-quote">
+    <h4 class="handwritten mb-3 mt-5 mb-4">What Todo-List-users say about Todo-Lists...</h4>
+
+    <div class="carousel slide" data-pause="false" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="/assets/images/Monarch_Butterflies.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col-sm-6">
+                        <blockquote class="blockquote blockquote-reverse">
+                            <p>My life changed since I use Todo-Lists in my everday-life.</p>
+                            <footer class="blockquote-footer">
+                                A bunch of butterflies
+                                <cite>from the backyard</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="/assets/images/White_Fronted_Geese.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col-sm-6">
+                        <blockquote class="blockquote blockquote-reverse">
+                            <p>Using Todo-List feels like flying.</p>
+                            <footer class="blockquote-footer">
+                                A goose
+                                <cite>returning from a business-trip in Africa.</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="/assets/images/âIâiwi_adult.jpg" class="img-thumbnail">
+                    </div>
+                    <div class="col-sm-6">
+                        <blockquote class="blockquote blockquote-reverse">
+                            <p>Using Todo-List feels like flying.</p>
+                            <footer class="blockquote-footer">
+                                A little birdie
+                                <cite>in the hand.</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 {{end}}
